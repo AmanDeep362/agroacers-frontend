@@ -1,0 +1,53 @@
+.gradient-custom {
+    background: -webkit-gradient( linear, left top, right top, color-stop(0%, transparent), color-stop(50%, #fff), color-stop(100%, transparent));
+    /* Chrome, Safari4+ */
+}
+
+.card-custom {
+    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 10% 50%;
+    background-color: #f8f9fa;
+    width: 100% !important;
+    padding: 1rem;
+    border: 1px solid #c0c0c0;
+    z-index: 0;
+}
+
+.input-custom {
+    background-color: white;
+}
+
+.white-text {
+    color: hsl(52, 0%, 98%);
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.back-button {
+    background-color: hsl(52, 0%, 98%);
+    font-weight: 700;
+    color: black;
+    margin-top: 50px;
+}
+
+.checkoutlabel {
+    font-size: 18px;
+    margin-top: 2px;
+}
+
+.stylebill {
+    background-color: #f8f9fa;
+    display: inline-block;
+    padding: 0.5rem 0.8rem;
+    border-radius: 5px;
+    border: 1px solid #f0f0f0;
+}
+
+@media (max-width: 767px) {
+    .back-button {
+        margin-bottom: 2rem;
+    }
+    .smallscreenactiveform {
+        display: block !important;
+    }
+}

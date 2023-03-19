@@ -1,0 +1,21 @@
+[{
+        "id": 1,
+        "image": "./Images/Web/shipping.svg",
+        "heading": "FREE SHIPPING",
+        "paragraph": "On Orders above Rs. 5K/-"
+    },
+    {
+
+        "id": 2,
+        "image": "./Images/Web/refund.svg",
+        "heading": "100% REFUND",
+        "paragraph": "Plant friendly packing to deliver."
+    },
+    {
+
+        "id": 3,
+        "image": "./Images/Web/support.svg",
+        "heading": "SUPPORT 24/7",
+        "paragraph": "Grow your garden with expert advice."
+    }
+]

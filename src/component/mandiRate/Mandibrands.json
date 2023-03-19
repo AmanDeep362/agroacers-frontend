@@ -1,0 +1,45 @@
+[{
+        "id": 1,
+        "image": "./Images/MandiPrice/bigbazar.png"
+    },
+    {
+
+        "id": 2,
+        "image": "./Images/MandiPrice/brittannia.png"
+    },
+    {
+
+        "id": 3,
+        "image": "./Images/MandiPrice/burger.png"
+    },
+    {
+
+        "id": 4,
+        "image": "./Images/MandiPrice/dabur.png"
+    },
+    {
+
+        "id": 5,
+        "image": "./Images/MandiPrice/Haldiram.jpg"
+    },
+    {
+
+        "id": 6,
+        "image": "./Images/MandiPrice/kissan.png"
+    },
+    {
+
+        "id": 7,
+        "image": "./Images/MandiPrice/Lays.jpg"
+    },
+    {
+
+        "id": 8,
+        "image": "./Images/MandiPrice/reliance.png"
+    },
+    {
+
+        "id": 9,
+        "image": "./Images/MandiPrice/Tata.jpg"
+    }
+]

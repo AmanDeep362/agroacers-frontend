@@ -1,0 +1,33 @@
+.application-info-containe{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.application-info-header{
+    text-align: center;
+    color: green;
+}
+.application-info-containe th,.application-info-containe td{
+    border: 2px solid black;
+}
+.bid-info-container{
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 4px 4px 4px gray;
+    background-color: aliceblue;
+    padding: 10px;
+}
+.bid-info-container th{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(4, 201, 4);
+}
+.bid-info-container td{
+    border: 2px solid black;
+    padding: 10px;
+    background-color: rgb(142, 235, 142);
+}

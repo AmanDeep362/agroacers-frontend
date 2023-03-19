@@ -1,0 +1,221 @@
+.navbar {
+    padding: 10px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.8);
+    font-weight: 500;
+    background-color: white;
+}
+
+.collapse {
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-box-margin {
+    margin-left: 135px;
+}
+
+.btn-secondary {
+    background-color: #77BC3F;
+    border-radius: 40px;
+}
+
+.btn-secondary:hover {
+    background-color: #6fe211;
+}
+
+.navbar-light .navbar-nav .nav-link:link {
+    color: #77BC3F;
+    padding: 8px 10px;
+}
+
+.userinfoheader {
+    color: #77BC3F;
+    font-weight: bold;
+    border-bottom: 2px solid #77BC3F;
+}
+
+
+/* Hover, Active And Visited Property of Anchor tag  */
+
+.navbar-light .navbar-nav .nav-link:visited {
+    color: #77BC3F;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #77BC3F;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link:active {
+    color: #77BC3F;
+    font-weight: bold;
+}
+
+
+/* -------------------- */
+
+.nav-hov:visited {
+    color: #77BC3F;
+    font-weight: bold;
+    border-top: 2px solid #77BC3F;
+}
+
+.nav-hov:hover {
+    color: #77BC3F;
+    font-weight: bold;
+    border-top: 2px solid #77BC3F;
+}
+
+.nav-hov:active {
+    color: #77BC3F;
+    font-weight: bold;
+    border-top: 2px solid #77BC3F;
+}
+
+
+/* Style for the Google Translator  */
+
+.goog-te-gadget-simple {
+    position: fixed;
+    right: 1.1rem;
+    bottom: 4.4rem;
+    padding: 12px;
+    border-radius: 1.2rem;
+    border: 1px solid #000;
+    z-index: 10000;
+    width: auto !important;
+}
+
+.goog-te-gadget-simple span {
+    display: none;
+}
+
+#WACContainer.WACContainer .WACLauncher__ButtonContainer.WACLauncher__ButtonContainer--noAnimation {
+    /* position: fixed !important; */
+    bottom: 0.7rem !important;
+    right: 1rem !important;
+    position: fixed !important;
+}
+
+#WACContainer.WACContainer .WACLauncher__ButtonContainer.WACLauncher__ButtonContainer--round {
+    /* position: fixed !important; */
+    bottom: 0.7rem !important;
+    right: 1rem !important;
+    position: fixed !important;
+}
+
+#WACContainer.WACContainer button.WACLauncher__Button svg {
+    width: 1.8rem !important;
+    height: 1.8rem !important;
+}
+
+#WACContainer.WACContainer button.WACLauncher__Button.WAC__button--base {
+    width: 3.25rem !important;
+    height: 3.25rem !important;
+}
+
+
+/* Style For Drop Down  */
+
+.dropdown-menu {
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    padding: 0px;
+}
+
+.dropdown-item:link {
+    background-color: rgba(119, 188, 63, 0.8);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 6px 15px;
+}
+
+.dropdown-item:visited {
+    background-color: rgba(119, 188, 63, 0.8);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 6px 15px;
+    font-weight: 600;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(119, 188, 63, 0.9);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 6px 15px;
+    font-weight: 600;
+}
+
+.dropdown-item:active {
+    background-color: rgba(119, 188, 63, 1);
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 6px 15px;
+    font-weight: 600;
+}
+
+
+/* Styling the Button  */
+
+.bg-btn {
+    background-color: rgba(119, 188, 63, 0.9);
+    padding: 3px 20px;
+    border-radius: 16px;
+    color: #fff;
+    outline: 0;
+    border: 0;
+}
+
+.bg-btn:visited {
+    color: #fff;
+    font-weight: bold;
+}
+
+.bg-btn:hover {
+    color: #fff;
+    font-weight: bold;
+}
+
+.bg-btn:active {
+    color: #fff;
+    font-weight: bold;
+}
+
+.hide_small {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .nav-box-margin {
+        margin-left: 0px;
+    }
+    .ul-border {
+        border-top: 1px solid #77BC3F;
+    }
+    .list-hide {
+        display: none;
+    }
+    .hide_small {
+        display: block;
+        margin-top: 10px;
+        /* border-top: 1px solid #77BC3F; */
+    }
+    .hide_small_login {
+        display: flex;
+        margin-top: 10px;
+        border-top: 1px solid #77BC3F;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .userinfoheader {
+        border-top: 2px solid #77BC3F;
+        border-bottom: 0;
+        padding: 5px;
+    }
+    .bg-btn {
+        border-radius: 5px;
+    }
+    .hide_small_header {
+        display: none;
+    }
+}

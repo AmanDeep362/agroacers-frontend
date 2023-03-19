@@ -1,0 +1,188 @@
+.about-banner {
+    text-align: center;
+    background-image: linear-gradient(45deg, rgba(90, 128, 0, 0.3), rgba( 0, 0, 128, 0.58)), url("./../Images/crousal/11.jfif");
+    background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    margin-top: 2px;
+    padding: 20px;
+    border-radius: 3px;
+    height: 45vh;
+}
+
+.about-banner-heading {
+    font-size: 4rem;
+    padding: 16px;
+    margin-top: 22px;
+}
+
+.about-banner-para {
+    font-size: 17px;
+}
+
+.about-outer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.about-heading {
+    font-size: 2.8rem;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.about-para {
+    text-align: justify;
+    font-size: 15px;
+}
+
+.about-story-heading {
+    text-align: center;
+    font-size: 3.5rem;
+    padding: 10px;
+    text-shadow: 2px 2px 3px #ddd;
+}
+
+.about-story-para {
+    text-align: justify;
+    margin: 25px 15px 10px 15px;
+    font-size: 0.96rem;
+}
+
+.about-story-h {
+    margin: 15px;
+}
+
+.about-story-ul {
+    padding-left: 5%;
+    font-size: 0.94rem;
+}
+
+.features-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0px;
+}
+
+.card {
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.35); */
+    transition: transform 1s;
+    width: 25%;
+    height: 110%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    width: 100%;
+    height: 35vh;
+}
+
+.about-found-para {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 1.01rem;
+}
+
+.foundercard {
+    width: 28%;
+    position: relative;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 3px solid #f0f0f0;
+}
+
+.fouImg {
+    height: 40%;
+    border-radius: 3px;
+}
+
+.knowmore-btn {
+    width: 60%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.fouImground {
+    width: 38%;
+    height: 36%;
+    position: absolute;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    left: 25px;
+    top: 12%;
+}
+
+.card-f-head {
+    margin-top: 1.5rem;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 1.3rem;
+}
+
+.card-f-para {
+    color: rgba(0, 0, 0, 0.6);
+    margin-bottom: 0.5rem;
+}
+
+.card-f-para2 {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 1200px) {
+    .card {
+        width: 30%;
+    }
+}
+
+@media (max-width: 1100px) {
+    .card {
+        width: 35%;
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 900px) {
+    .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 775px) {
+    .card {
+        width: 55%;
+    }
+    .about-story-heading {
+        font-size: 2.8rem;
+    }
+    .fouImground {
+        width: 36%;
+        height: 34%;
+        top: 11%;
+    }
+}
+
+@media (max-width: 645px) {
+    .card {
+        width: 75%;
+    }
+}
+
+@media (max-width: 500px) {
+    .card {
+        width: 95%;
+    }
+    .fouImground {
+        width: 34%;
+        height: 32%;
+        top: 10%;
+    }
+    .about-banner-para {
+        display: none;
+    }
+}

@@ -1,0 +1,61 @@
+.crousal-text {
+    background-color: rgba(0, 0, 0, 0.61);
+}
+
+.crop-blog-container {
+    margin-top: 1.6%;
+}
+
+.crop-blog-header h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #77BC3F;
+    text-decoration: underline;
+}
+
+.crop-blog-header p {
+    margin: 1%;
+    font-size: 1.18rem;
+    text-align: justify;
+    color: #07853b;
+}
+
+.types-o-crop-head {
+    font-size: 2.6rem;
+    text-align: center;
+    color: #77BC3F;
+    text-decoration: underline;
+}
+
+.crop-card-container {
+    margin: 2% 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.crop-card-container .card {
+    width: 21rem;
+    height: 450px;
+    margin: 2%;
+    margin-right: 20px;
+}
+
+.crop-card-container .card-body .card-title {
+    color: #77BC3F;
+    font-size: 2rem;
+}
+
+.crop-card-container .card-body .card-text {
+    color: #07853b;
+}
+
+.Crop-link {
+    text-decoration: none;
+}
+
+.crop-card-container .card-body:hover {
+    background-color: #aaf36d94;
+    color: white;
+}

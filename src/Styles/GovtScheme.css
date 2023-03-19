@@ -1,0 +1,16 @@
+.govt-scheme-header {
+    margin-top: 0.5%;
+}
+
+.govt-scheme-header h1 {
+    text-align: center;
+    font-weight: 600;
+    color: rgb(119, 188, 63);
+    font-size: 3.5rem;
+}
+
+.govt-scheme-header p {
+    text-align: center;
+    color: rgb(66, 145, 1);
+    font-size: 1.1rem;
+}

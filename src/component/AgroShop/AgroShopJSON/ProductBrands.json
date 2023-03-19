@@ -1,0 +1,55 @@
+[{
+        "id": 1,
+        "image": "./Images/AgroProducts/clause.jpg"
+    },
+    {
+
+        "id": 2,
+        "image": "./Images/AgroProducts/takii.jpg"
+    },
+    {
+
+        "id": 3,
+        "image": "./Images/AgroProducts/seminis.png"
+    },
+    {
+
+        "id": 4,
+        "image": "./Images/AgroProducts/known-you.jpg"
+    },
+    {
+
+        "id": 5,
+        "image": "./Images/AgroProducts/sakata.jpg"
+    },
+    {
+
+        "id": 6,
+        "image": "./Images/AgroProducts/east_west_seed.png"
+    },
+    {
+
+        "id": 7,
+        "image": "./Images/AgroProducts/tokita_seeds.jpg"
+    },
+    {
+
+        "id": 8,
+        "image": "./Images/AgroProducts/fito.png"
+    },
+    {
+
+        "id": 9,
+        "image": "./Images/AgroProducts/nunhems.png"
+    },
+    {
+
+        "id": 10,
+        "image": "./Images/AgroProducts/indus.png"
+    },
+    {
+
+        "id": 11,
+        "image": "./Images/AgroProducts/vnr.png"
+    }
+]

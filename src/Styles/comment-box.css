@@ -1,0 +1,106 @@
+.comment-box-header{
+    color: Green;
+    margin-left: 2%;
+}
+.Comment-avtar{
+    width: 2%;
+    border-radius:50%;
+    margin: 0.5%;
+}
+.comment-btn{
+    border: none;
+    background-color: #77BC3F;
+    color: white;
+}
+.user-comment{
+    display: inline-block;
+}
+.comment-card{
+    background-color: rgb(238, 232, 232);
+    margin: 2%;
+}
+
+.detailBox {
+    width:96%;
+    border:1px solid #bbb;
+    margin: 2%;
+}
+.titleBox {
+    background-color:#77BC3F;
+    padding:10px;
+}
+.titleBox .close{
+    position: relative;
+    float: right;
+}
+.titleBox label{
+  color:white;
+  margin:0;
+  display:inline-block;
+}
+
+.commentBox {
+    padding:10px;
+    border-top:1px dotted #bbb;
+}
+.commentBox .form-group:first-child, .actionBox .form-group:first-child {
+    width:70%;
+}
+.commentBox .form-group:nth-child(2), .actionBox .form-group:nth-child(2) {
+    width:18%;
+}
+.form-group{
+    display: inline-block;
+}
+.form-group .btn{
+    border: none;
+    background-color: #77BC3F;
+    color: white;
+    border: 2px solid #77BC3F;
+    margin-left: 2%;
+}
+.actionBox .form-group * {
+    width:100%;
+}
+.taskDescription {
+    margin-top:10px 0;
+}
+.commentList {
+    padding:0;
+    list-style:none;
+    max-height:200px;
+    overflow:auto;
+}
+.commentList li {
+    margin:0;
+    margin-top:10px;
+}
+.commentList li > div {
+    display:table-cell;
+}
+.commenterImage {
+    width:30px;
+    margin-right:5px;
+    height:100%;
+    float:left;
+}
+.commenterImage img {
+    width:100%;
+    border-radius:50%;
+}
+.commentText p {
+    margin:0;
+}
+.form-inline{
+    padding: 0px;
+    margin: 10px;
+}
+.sub-text {
+    color:#aaa;
+    font-family:verdana;
+    font-size:11px;
+}
+.actionBox {
+    border-top:1px dotted #bbb;
+    padding:5px;
+}

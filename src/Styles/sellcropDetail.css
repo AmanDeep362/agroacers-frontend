@@ -1,0 +1,217 @@
+.dash-banner-per-id {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg, rgba(90, 128, 0, 0.3), rgba( 0, 0, 128, 0.58)), url("./../Images/MSP.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(241, 239, 239);
+    padding: 20px;
+    height: 55vh;
+    margin-bottom: 2px;
+    border: 5px groove rgb(253, 253, 253);
+}
+
+.dash-banner-headingper-id {
+    font-size: 4rem;
+    padding: 16px;
+}
+
+.headingofseller {
+    font-size: 5rem;
+    color: #77BC3F;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.seller-purchace-header-container {
+    border: 2px solid #333232;
+    margin: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border-radius: 0.5rem;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.sell-p-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+}
+
+.sell-p-image-container img {
+    border: 2px solid #333232;
+    width: 100%;
+    margin: 1.2%;
+    border-radius: 0.5rem;
+}
+
+.sell-p-image-container .btn {
+    width: 100%;
+    margin: 1.2%;
+}
+
+.sell-pur-crop-con {
+    margin: 1%;
+    margin-right: 2.5%;
+}
+
+.sell-pur-crop-con table tr {
+    border: 2px solid #333232;
+}
+
+.sell-pur-crop-con table td {
+    border: 2px solid #333232;
+    padding: 0.5rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    max-width: 320px;
+}
+
+.sell-pur-dis-container {
+    margin: 2% 0px;
+    padding: 1% 3%;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.sell-pur-dis-container h2 {
+    color: #77BC3F;
+}
+
+.sell-pur-dis-container p {
+    color: #35630f;
+}
+
+.farmer-informaition-container {
+    padding: 1% 3%;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.farmer-informaition-container h2 {
+    color: #77BC3F;
+    font-size: 2.1rem;
+}
+
+.farmer-informaition-container td {
+    border: 2px solid #333232;
+    padding: 0.4rem;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.farmer-informaition-container table {
+    margin-top: 2%;
+    box-shadow: 3px 3px 5px gray;
+}
+
+.farmer-informaition-container td:nth-child(1) {
+    background-color: #cbf1c1;
+}
+
+.farmer-informaition-container td:nth-child(2) {
+    background-color: #e8fdd7;
+}
+
+.bidding {
+    margin: 2% 0px 0px;
+    padding: 1% 3% 2%;
+    border-top: 1px solid #c0c0c0;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.bidding h3 {
+    color: #77BC3F;
+    font-size: 2.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.biddingrating {
+    margin: 2% 0px;
+}
+
+.biddingrating span {
+    font-size: 17px;
+    font-weight: 500;
+    margin: 2%;
+}
+
+.modal-body form {
+    margin: 0px;
+}
+
+@media (max-width: 1350px) {
+    .sell-pur-crop-con {
+        margin: 1%;
+        margin-right: 1%;
+    }
+}
+
+@media (max-width: 1270px) {
+    .sell-p-image-container {
+        margin: 1.42%;
+        width: 100%;
+    }
+    .sell-p-image-container img {
+        width: 100%;
+        max-height: 70vh;
+        margin: 0px;
+    }
+    .sell-p-image-container .btn {
+        width: 100%;
+        margin: 2% 0px;
+    }
+    .sell-pur-crop-con {
+        margin: 1.42%;
+        width: 100%;
+    }
+    .sell-pur-crop-con table tr {
+        border: 2px solid #333232;
+    }
+    .sell-pur-crop-con table td {
+        border: 2px solid #333232;
+        padding: 0.5rem;
+        text-transform: capitalize;
+        font-weight: 500;
+    }
+}
+
+@media (max-width: 980px) {
+    .sell-p-image-container img {
+        max-height: 65vh;
+    }
+}
+
+@media (max-width: 790px) {
+    .sell-p-image-container img {
+        max-height: 55vh;
+    }
+    .headingofseller {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .sell-p-image-container img {
+        max-height: 48vh;
+    }
+}
+
+@media (max-width: 450px) {
+    .farmer-informaition-container {
+        overflow-x: scroll;
+    }
+    .sell-pur-crop-con {
+        overflow-x: scroll;
+    }
+}

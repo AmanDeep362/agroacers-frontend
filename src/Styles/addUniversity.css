@@ -1,0 +1,23 @@
+.input-agro-university {
+    width: 90%;
+    margin-top: 2%;
+    padding: 2px;
+}
+
+.addUniversity-form-container {
+    border: 2px solid black;
+    margin: 3%;
+    border-radius: 12px;
+    background-color: rgba(231, 255, 195, 0.733);
+    box-shadow: 2px 2px 4px #c0c0c0;
+}
+
+.addUniversity-form-container form {
+    margin-left: 3%;
+    margin-top: 1%;
+}
+
+.add-university-btn {
+    width: 94%;
+    margin-top: 5%;
+}

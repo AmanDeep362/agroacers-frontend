@@ -1,0 +1,86 @@
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 0px 1%;
+    margin: 1% 0;
+}
+
+.details-image {
+    border: 1px solid #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3% 1%;
+    margin: 1.4%;
+    border-radius: 6px;
+}
+
+.details-image img {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 6px;
+}
+
+.details-info ul {
+    list-style-type: none;
+    padding: 2%;
+    margin: 1.4%;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+}
+
+.details-info ul li {
+    margin-bottom: 1.3%;
+}
+
+.details-action {
+    background-color: #7cffcb;
+    background-image: linear-gradient(315deg, #acf76f 0%, #74f2ce 74%);
+    margin-top: 1%;
+    border-radius: 6px;
+}
+
+.details-action ul {
+    list-style-type: none;
+    padding: 1% 5%;
+    margin: 2%;
+    border-radius: 6px;
+}
+
+.details-action ul li h4 {
+    display: inline-block;
+}
+
+.details-action ul li select {
+    width: 50px;
+    background-color: #dcf3ca;
+    outline: none;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 4px;
+}
+
+.btn-addto-cart {
+    width: 100%;
+    background-color: #4cf598;
+    border-color: #39cc7b;
+    font-weight: 500;
+    color: rgb(8, 8, 8)
+}
+
+.btn-addto-cart:hover {
+    background-color: #57f593;
+    border-color: #02b955;
+    color: rgb(255, 255, 255)
+}
+
+@media (max-width: 1049px) {
+    .details-action {
+        margin: 1.4%;
+        width: 100%;
+    }
+    .smallrenderingproductuni {
+        width: 100%;
+    }
+}

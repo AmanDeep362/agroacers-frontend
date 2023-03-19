@@ -1,0 +1,78 @@
+.PageOuter {
+    background-color: #EFEEEE;
+    margin-bottom: 2px;
+}
+
+.PageContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.NFImg {
+    margin-bottom: 10px;
+    width: 62%;
+    height: 65vh;
+}
+
+.PageBtnF {
+    background-color: #FF6600;
+    border-radius: 16px;
+    padding: 6px 28px;
+    outline: 0;
+    border: 0;
+    color: #fff;
+}
+
+.PageheadingF {
+    color: #3F0713;
+    font-size: 3rem;
+    margin: 12px;
+}
+
+.PageParaF {
+    color: #113CFC;
+}
+
+
+@media (max-width: 1051px) {
+    .NFImg {
+        width: 72%;
+        height: 65vh;
+    }
+}
+
+@media (max-width: 850px) {
+    .NFImg {
+        margin-bottom: 10px;
+        width: 78%;
+        height: 55vh;
+    }
+    .PageBtnF {
+        padding: 6px 25px;
+    }
+    .PageheadingF {
+        font-size: 2.8rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .NFImg {
+        width: 88%;
+        height: 55vh;
+    }
+    .PageBtnF {
+        padding: 6px 20px;
+    }
+    .PageheadingF {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .NFImg {
+        width: 98%;
+        height: 53vh;
+    }
+}

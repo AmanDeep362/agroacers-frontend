@@ -1,0 +1,48 @@
+.form-container{
+    border: 2px solid gray;
+    margin: auto;
+    width: 1000px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 14px;
+    box-shadow: 3px 3px 3px gray;
+}
+#title{
+ width: 800px;
+}
+.upload-post-heading{
+    color: rgb(119, 188, 63);
+    text-align: center;
+    margin-top: 2%;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+label{
+    font-weight: 500;
+    font-size: 22px;
+    margin-top: 4%;
+    color: rgb(119, 188, 63);
+}
+form{
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+.description{
+    width: 800px;
+}
+#image{
+    background-color:rgb(119, 188, 63); 
+}
+#post-btn{
+margin: auto;
+width: 800px;
+background-color:rgb(119, 188, 63); 
+height: 60px;
+margin-top: 5%;
+border: none;
+color: aliceblue;
+border-radius: 12px;
+}
+#post-btn:hover{
+    background-color:rgb(104, 204, 21); 
+}

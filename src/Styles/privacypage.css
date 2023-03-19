@@ -1,0 +1,33 @@
+.privacy-page-heading {
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 2px 30px 2px;
+    color: #77BC3F;
+    text-decoration: underline;
+}
+
+.privacy-head-1 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    text-align: left;
+    color: #65ad29;
+}
+
+.privacy-2 {
+    font-weight: 400;
+    text-align: justify;
+    color: #363636;
+}
+
+.privacy-head {
+    margin-top: 0.5rem;
+    color: #65ad29;
+}
+
+@media (max-width: 450px) {
+    .privacy-page-heading {
+        font-size: 2rem;
+    }
+}

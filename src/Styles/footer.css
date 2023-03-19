@@ -1,0 +1,132 @@
+.Footer-container {
+    background-color: #efeeee;
+    bottom: 0px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.footer-aboutus-container {
+    width: 25%;
+    padding: 30px 15px;
+}
+
+.usefull-link-container {
+    padding: 30px 10px;
+    width: 25%;
+}
+
+.usefull-links-list {
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+.usefull-links {
+    text-decoration: none;
+    color: black;
+}
+
+.subscribe-form-container {
+    padding: 30px 10px;
+    width: 25%;
+}
+
+.subscribe-form input {
+    background: none;
+    margin-bottom: 7%;
+    margin-left: 5%;
+    width: 80%;
+    border: 2px solid grey;
+    border-radius: 3px;
+    padding: 2px;
+    background-color: #fff;
+}
+
+.subscribe-form button {
+    margin-left: 5%;
+}
+
+.footer-location-container {
+    padding: 30px 10px;
+    width: 25%;
+}
+
+.footer-map {
+    width: 90%;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.footer-payment-img {
+    width: 30px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+.payment-app-container {
+    display: block;
+    margin-left: 78%;
+}
+
+
+/**  CSS for Bottom Copyright (No need to add media) */
+
+.copyright-footer-container {
+    background-color: #77bc3f;
+}
+
+.copyright-footer-text {
+    padding: 1%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+
+/* media queries */
+
+@media (max-width: 1100px) {
+    .footer-aboutus-container,
+    .usefull-link-container,
+    .subscribe-form-container,
+    .footer-location-container {
+        width: 45%;
+    }
+    .payment-app-container {
+        margin-left: 65%;
+        margin-top: 5%;
+        padding-bottom: 2%;
+    }
+}
+
+@media (max-width: 800px) {
+    .footer-aboutus-container,
+    .usefull-link-container,
+    .subscribe-form-container,
+    .footer-location-container {
+        width: 48%;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-aboutus-container,
+    .usefull-link-container,
+    .subscribe-form-container,
+    .footer-location-container {
+        margin-left: 10%;
+        width: 80%;
+    }
+    .payment-app-container {
+        margin-left: 55%;
+        margin-top: 10%;
+        padding-bottom: 5%;
+    }
+}

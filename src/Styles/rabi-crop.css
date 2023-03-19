@@ -1,0 +1,51 @@
+.rabi-crop-header h2 {
+    font-size: 3rem;
+    text-align: center;
+    color: #77BC3F;
+    text-decoration: underline;
+    margin: 1%;
+}
+
+.textofsimilarcrop {
+    font-size: 3rem;
+    text-align: center;
+    color: #77BC3F;
+    text-decoration: underline;
+    margin: 1%;
+}
+
+.rabi-crop-header p {
+    margin: 1%;
+    font-size: 1.18rem;
+    text-align: justify;
+    color: #07853b;
+}
+
+.type-rabi-header {
+    font-size: 2.5rem;
+    text-align: center;
+    color: #77BC3F;
+    text-decoration: underline;
+}
+
+.crop-type-card-container {
+    margin: 1.2% 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.crop-type-card-container .card {
+    margin: 2%;
+}
+
+.crop-type-card-container .card-body {
+    background-color: rgb(114, 204, 114);
+    color: rgb(255, 255, 255);
+}
+
+.crop-type-card-container .card-body:hover {
+    background-image: linear-gradient(45deg, rgb(61, 238, 76), #77bc3fc2, rgba(74, 218, 74, 0.432));
+    color: white;
+}

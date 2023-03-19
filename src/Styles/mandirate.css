@@ -1,0 +1,221 @@
+.mandi-banner {
+    width: 100%;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgba(90, 128, 0, 0.3), rgba( 0, 0, 128, 0.58)), url("./../Images/MSP.jpg");
+    background-color: rgba(0, 0, 0, 0.2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    margin-top: 3px;
+    padding: 20px;
+    border-radius: 1px;
+    height: 45vh;
+}
+
+.mandi-banner-heading {
+    font-size: 4rem;
+    padding: 16px;
+    margin-top: 22px;
+}
+
+.mandi-banner-para {
+    font-size: 17px;
+}
+
+
+/* Mandi Analysis  */
+
+.mandi-Analysis {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    border: 1px solid #c0c0c0;
+    border-radius: 3px;
+    padding: 8px;
+    margin: 2px;
+}
+
+.mandi-Analysis-image-container {
+    max-width: 50%;
+}
+
+.mandi-Analysis p {
+    display: inline;
+}
+
+.mandi-Analysis-image {
+    width: 100%;
+}
+
+.mandi-Analysis-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: 1%;
+}
+
+.mandi-Analysis-inner h1 {
+    margin: 2rem 1px 1rem;
+    margin-bottom: 2rem;
+}
+
+.mandi-Analysis-inner ul li {
+    margin-bottom: 2px;
+}
+
+
+/* Top Brands  */
+
+.TopBrandsMandiPrice {
+    transition: transform 0.4s linear;
+    margin: 1%;
+    cursor: pointer;
+}
+
+.TopBrandsMandiPrice:hover {
+    transform: scale(1.06);
+}
+
+.MandiBrandsImage {
+    max-width: 200px;
+}
+
+
+/* Heading Of Price Table  */
+
+.MSP-info-container {
+    background: rgb(241, 248, 237) 0% 0% no-repeat padding-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 1.2%;
+    border: 1px solid #c0c0c0;
+    box-shadow: 2px 2px 4px #ddd;
+}
+
+.innner-MSP-info-container span {
+    font-size: 1.23rem;
+    font-weight: 500;
+    margin-right: 8px;
+    margin-left: 1rem;
+}
+
+.innner-MSP-info-container select {
+    background-color: #fff;
+    padding: 3px 5px;
+    border-radius: 4px;
+    outline: none;
+    border-color: #c0c0c0;
+}
+
+.innner-MSP-info-container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-right: 1%;
+}
+
+
+/* Table  */
+
+.norenderdata {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 2%;
+}
+
+#CheckMSPPrice {
+    font-size: 3rem;
+    text-decoration: underline;
+    margin-bottom: 2%;
+    text-transform: uppercase;
+}
+
+.table-heading-msp thead tr th {
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+.table-heading-msp tbody tr td {
+    text-align: left;
+    vertical-align: middle;
+    font-size: 1.05rem;
+    font-weight: 500;
+}
+
+@media (max-width: 1280px) {
+    .mandi-Analysis-image-container {
+        max-width: 40%;
+    }
+}
+
+@media (max-width: 920px) {
+    #CheckMSPPrice {
+        font-size: 2.4rem;
+    }
+    .table-heading-msp thead tr th {
+        text-align: left;
+        font-size: 1rem;
+    }
+    .table-heading-msp tbody tr td {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .MSP-info-container {
+        display: block;
+    }
+    .MSP-info-container h3 {
+        margin-left: 16px;
+    }
+    .innner-MSP-info-container {
+        margin-top: 0.8rem;
+        display: inline-block;
+    }
+}
+
+@media (max-width: 730px) {
+    #CheckMSPPrice {
+        font-size: 2.2rem;
+    }
+    #showsmalltable {
+        display: table-row;
+        border-spacing: 2px;
+    }
+    #overflowonsmall {
+        overflow-x: scroll;
+        margin-bottom: 3%;
+    }
+}
+
+@media (max-width: 540px) {
+    .MSP-info-container h3 {
+        font-size: 2rem;
+        margin: auto
+    }
+    .innner-MSP-info-container {
+        margin-top: 0.8rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: space-evenly;
+    }
+    .innner-MSP-info-container span {
+        margin-left: 8px;
+    }
+    .innner-MSP-info-container input {
+        display: inline;
+    }
+}
+
+@media (max-width: 490px) {
+    .mandi-banner-para {
+        display: none;
+    }
+}

@@ -1,0 +1,48 @@
+[{
+        "id": 1,
+        "image": "./Images/AgroProducts/ProductOffer6.jpg",
+        "heading": "Vegetable Seeds"
+    },
+    {
+
+        "id": 2,
+        "image": "./Images/AgroProducts/ProductOffer2.jpg",
+        "heading": "Flower Seeds"
+    },
+    {
+
+        "id": 3,
+        "image": "./Images/AgroProducts/ProductsOffer4.jpg",
+        "heading": "Polyhouse Seeds/Accessories"
+    },
+    {
+
+        "id": 4,
+        "image": "./Images/AgroProducts/ProductsOffer6.jpg",
+        "heading": "Fruit Seeds"
+    },
+    {
+
+        "id": 5,
+        "image": "./Images/AgroProducts/ProductsOffer7.jpg",
+        "heading": "Exotic & Herb Seeds"
+    },
+    {
+
+        "id": 6,
+        "image": "./Images/AgroProducts/ProductsOffer8.jpg",
+        "heading": "Kitchen Garden Pack/Accessories"
+    },
+    {
+
+        "id": 7,
+        "image": "./Images/AgroProducts/ProductsOffer9.jpg",
+        "heading": "Palm & Tree Seeds"
+    },
+    {
+
+        "id": 8,
+        "image": "./Images/AgroProducts/ProductsOffer10.jpg",
+        "heading": "Forage Seeds"
+    }
+]

@@ -1,0 +1,148 @@
+.crousal-statistic-outer-container {
+    margin: 4px 0px;
+    border: 1px solid #f0f0f0;
+}
+
+.homepage-story-heading {
+    text-align: center;
+    text-shadow: 2px 2px 3px #ddd;
+    color: #77BC3F;
+    font-size: 3.4rem;
+}
+
+.crousal-statistic-inner-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2% 0.5%;
+    padding: 1%;
+}
+
+.crousal-statistic-maincont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.fixthewidth {
+    text-align: center;
+    margin-left: 0.6rem;
+    width: 175px;
+    /* color: #77BC3F; */
+    color: #252525;
+}
+
+.card-title-link-home {
+    text-decoration: none;
+    color: #252525;
+}
+
+.bodyofmyshopbanner {
+    background-image: url("./../Images/vege-homes.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f0f0f0;
+}
+
+.contentofmyshopbanner {
+    margin-top: 6%;
+    text-align: center;
+    color: #77BC3F;
+}
+
+.mydiscount {
+    border: 2px solid #77BC3F;
+    padding: 8px 16px;
+    border-radius: 18px;
+    margin: 1rem 0px;
+}
+
+.bodyofweatherbanner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #f0f0f0;
+    box-shadow: 2px 2px 4px #c0c0c0;
+}
+
+.contentofweatherbanner {
+    margin: 4% 1.5%;
+    padding: 3%;
+    border: 1px solid #f0f0f0;
+    border-radius: 6px;
+    box-shadow: 2px 2px 4px #c0c0c0;
+}
+
+.weatherimagebnr {
+    width: 47%;
+}
+
+@media (max-width: 1266px) {
+    .homepage-story-heading {
+        font-size: 3rem;
+    }
+    .crousal-statistic-inner-container {
+        justify-content: space-around;
+        margin: 1%;
+        margin-bottom: 5px;
+    }
+    .crousal-statistic-maincont {
+        margin: 2%;
+        margin-right: 3%;
+    }
+    .contentofmyshopbanner {
+        margin-left: 8%;
+    }
+}
+
+@media (max-width: 1166px) {
+    .contentofmyshopbanner {
+        margin-left: 18%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .bodyofmyshopbanner {
+        justify-content: flex-end;
+        padding-right: 1rem;
+    }
+    .bodyofweatherbanner {
+        flex-wrap: wrap;
+    }
+    .weatherimagebnr {
+        width: 75%;
+    }
+}
+
+@media (max-width: 800px) {
+    .bodyofmyshopbanner {
+        background-image: url("./../Images/smallshop.png");
+        height: 55vh;
+    }
+    .contentofmyshopbanner {
+        margin: 0;
+        margin-top: 17%;
+    }
+}
+
+@media (max-width: 700px) {
+    .homepage-story-heading {
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 550px) {
+    .bodyofmyshopbanner {
+        justify-content: center;
+        padding: 6px;
+    }
+    .weatherimagebnr {
+        width: 95%;
+    }
+}

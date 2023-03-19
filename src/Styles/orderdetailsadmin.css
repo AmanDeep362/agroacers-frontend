@@ -1,0 +1,24 @@
+.inner-container-order {
+    border: 1px solid #c0c0c0;
+    background-color: #f0f0f0;
+    margin-bottom: 2%;
+    padding-top: 1%;
+    border-radius: 5px;
+}
+
+.order-each-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 2%;
+}
+
+.order-each-container div span {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.order-each-container div p {
+    font-size: 17px;
+}
