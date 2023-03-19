@@ -75,7 +75,7 @@ function MyCart(){
 
     const additemtoshop = async (_id, Nameofproduct ,_idofproduct ,qtyofproduct ,priceofproduct) => {
         // console.log(_id,Nameofproduct ,_idofproduct ,qtyofproduct ,priceofproduct)
-        const res =  await fetch("/sendcheckoutdata" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/sendcheckoutdata" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -123,7 +123,7 @@ function MyCart(){
         const EmailofBuyer = userData.email;
         const BuyerName = firstname + " " + lastname;
 
-        const res =  await fetch("/sendcheckoutdatabasic" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/sendcheckoutdatabasic" ,{
                 method : "POST",
                 headers : { 
                     "content-Type" : "application/json"
@@ -153,7 +153,7 @@ function MyCart(){
 
     const callAboutPage = async () => {
         try {
-            const res = await fetch("/aboutuser", {
+            const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
                 method: "GET",
                 headers: {
                     Accept: "application/json",
@@ -266,7 +266,7 @@ function MyCart(){
                 const transid = response.razorpay_payment_id;
                 const amountpay = Number(data.amount.toString())/100;
                 
-                const res =  await fetch("/sendcartReply" ,{
+                const res =  await fetch("https://agroacers-backend.onrender.com/sendcartReply" ,{
                     method : "POST",
                     headers : { 
                         "content-Type" : "application/json"
@@ -287,7 +287,7 @@ function MyCart(){
 
                 async function changeitem(id, quantity) {
 
-                    const res =  await fetch("/Shopproductcartdata" ,{
+                    const res =  await fetch("https://agroacers-backend.onrender.com/Shopproductcartdata" ,{
                         method : "POST",
                         headers : { 
                             "content-Type" : "application/json"

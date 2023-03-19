@@ -13,7 +13,7 @@ const CommentBox = (props)=>{
     const { state, dispatch } = useContext(UserContext);
     const callAboutPage = async () => {
         try {
-          const res = await fetch("/aboutuser", {
+          const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
             method: "GET",
             headers: {
               Accept: "application/json",
@@ -53,7 +53,7 @@ const CommentBox = (props)=>{
       let Username = userData.name;
       let commentOnCrop = props.Cropname;
       console.log(time);
-      const res =  await fetch("/commentBox" ,{
+      const res =  await fetch("https://agroacers-backend.onrender.com/commentBox" ,{
         method : "POST",
         headers : { 
             "content-Type" : "application/json"
@@ -76,7 +76,7 @@ const CommentBox = (props)=>{
     }
     const getCommentData = async () => {
       try {
-        const res = await fetch("/CommentData", {
+        const res = await fetch("https://agroacers-backend.onrender.com/CommentData", {
           method: "GET",
           headers: {
             Accept: "application/json",

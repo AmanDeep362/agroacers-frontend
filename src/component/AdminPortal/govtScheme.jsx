@@ -14,7 +14,7 @@ const AddGovtScheme = ()=>{
     const uploadData =async (e)=>{
         e.preventDefault();
         const {SchemeName,state,website,Description,Imageurl} = SchemeDetails;
-          const res = await  fetch("/admin/GovtScheme" ,{
+          const res = await  fetch("https://agroacers-backend.onrender.com/admin/GovtScheme" ,{
                 method : "POST",
                 headers : { 
                     "content-Type" : "application/json"

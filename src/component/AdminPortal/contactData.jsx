@@ -20,7 +20,7 @@ class ContactPadeData extends React.Component {
   // ComponentDidMount is used to
   // execute the code
   componentDidMount() {
-    fetch("/AdminAgroAcers362/ContactResult")
+    fetch("https://agroacers-backend.onrender.com/AdminAgroAcers362/ContactResult")
       .then((res) => res.json())
       .then((json) => {
         this.setState({
@@ -41,7 +41,7 @@ class ContactPadeData extends React.Component {
      const postData =async (e)=>{
       e.preventDefault();
       const {name,mail,subject,body} = this.state;
-      const res =  await fetch("/sendReply" ,{
+      const res =  await fetch("https://agroacers-backend.onrender.com/sendReply" ,{
       method : "POST",
       headers : { 
           "content-Type" : "application/json"

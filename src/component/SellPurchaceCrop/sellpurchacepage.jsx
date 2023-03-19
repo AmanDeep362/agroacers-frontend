@@ -40,7 +40,7 @@ const SellerPurchace = () => {
   useEffect(() => {
     const callAboutPage = async () => {
       try {
-        const res = await fetch("/aboutuser", {
+        const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
           method: "GET",
           headers: {
             Accept: "application/json",
@@ -83,7 +83,7 @@ const SellerPurchace = () => {
     let Farmername = pagedata.FarmerName;
     let Farmeremail = pagedata.EmailOfFarmer;
 
-    const res =  await fetch("/sendMessagetofarmer" ,{
+    const res =  await fetch("https://agroacers-backend.onrender.com/sendMessagetofarmer" ,{
       method : "POST",
       headers : { 
           "content-Type" : "application/json"
@@ -119,7 +119,7 @@ const SellerPurchace = () => {
     const farmeremail = pagedata.EmailOfFarmer;
     const UserId = userData._id;
     const CropId = pagedata._id;
-    const res = await fetch("/sendbid", {
+    const res = await fetch("https://agroacers-backend.onrender.com/sendbid", {
       method: "POST",
       headers: {
         "content-Type": "application/json",

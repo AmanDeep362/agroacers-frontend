@@ -8,7 +8,7 @@ const FarmerCropDashboard = ()=>{
     const [cropData, setCropData] = useState([]);
     const callAboutPage = async () => {
         try {
-          const res = await fetch("/aboutuser", {
+          const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
             method: "GET",
             headers: {
               Accept: "application/json",
@@ -31,7 +31,7 @@ const FarmerCropDashboard = ()=>{
     
     const FarmerCropData = async () => {
         try {
-          const res = await fetch("/Sellercropdata", {
+          const res = await fetch("https://agroacers-backend.onrender.com/Sellercropdata", {
             method: "GET",
             headers: {
               Accept: "application/json",

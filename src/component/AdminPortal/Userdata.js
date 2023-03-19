@@ -18,7 +18,7 @@ class UserData extends React.Component {
   // ComponentDidMount is used to
   // execute the code
   componentDidMount() {
-    fetch("/AdminAgroAcers362/UserDetails")
+    fetch("https://agroacers-backend.onrender.com/AdminAgroAcers362/UserDetails")
       .then((res) => res.json())
       .then((json) => {
         this.setState({
@@ -62,7 +62,7 @@ class UserData extends React.Component {
                 <td>{item.time}</td>
                 <td>{(item.isAdmin==true)?<button style={{backgroundColor:"lightgreen"}}>You Already Admin</button>:<button onClick={async ()=>{
                   const id = item._id;
-                  const res =  await fetch("/makeAdmin" ,{
+                  const res =  await fetch("https://agroacers-backend.onrender.com/makeAdmin" ,{
                     method : "POST",
                     headers : { 
                         "content-Type" : "application/json"

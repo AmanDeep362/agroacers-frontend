@@ -30,7 +30,7 @@ function ShopOrderDetails(){
         // console.log(e.target.value);
         const id = e.target.value;
 
-        const res =  await fetch("/updatedispatchdetail" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/updatedispatchdetail" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -55,7 +55,7 @@ function ShopOrderDetails(){
 
         const id = e.target.value;
 
-        const res =  await fetch("/updatedeliverdetail" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/updatedeliverdetail" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"

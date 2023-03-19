@@ -11,7 +11,7 @@ const FarmerBiddingInfo = ()=>{
     const {id} = useParams();
     const FarmerApplicationData = async () => {
         try {
-          const res = await fetch("/CropSellDashboard/myApplication/"+id, {
+          const res = await fetch("https://agroacers-backend.onrender.com/CropSellDashboard/myApplication/"+id, {
             method: "GET",
             headers: {
               Accept: "application/json",

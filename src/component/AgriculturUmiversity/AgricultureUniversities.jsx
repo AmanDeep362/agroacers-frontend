@@ -12,7 +12,7 @@ const AgricultureUniversity = () => {
 
   const getPageData = async () => {
     try {
-      const res = await fetch("AgricultureUniversityData", {
+      const res = await fetch("https://agroacers-backend.onrender.comAgricultureUniversityData", {
         method: "GET",
         headers: {
           Accept: "application/json",

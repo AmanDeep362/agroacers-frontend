@@ -57,7 +57,7 @@ const AboutUser = () => {
   }
   const callAboutPage = async () => {
     try {
-      const res = await fetch("/aboutuser", {
+      const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
         method: "GET",
         headers: {
           Accept: "application/json",

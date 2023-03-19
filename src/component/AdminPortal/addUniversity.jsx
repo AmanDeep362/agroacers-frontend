@@ -15,7 +15,7 @@ const AddUniversity = ()=>{
     const uploadData =async (e)=>{
         e.preventDefault();
         const {UniversityName,adress,contact,website,emailId,Imageurl} = UniversityDetails;
-          const res = await  fetch("/admin/AgricultureUniversity" ,{
+          const res = await  fetch("https://agroacers-backend.onrender.com/admin/AgricultureUniversity" ,{
                 method : "POST",
                 headers : { 
                     "content-Type" : "application/json"

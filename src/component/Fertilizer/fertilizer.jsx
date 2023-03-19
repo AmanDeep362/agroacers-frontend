@@ -23,7 +23,7 @@ const FertilizerDetailPage =()=>{
         e.preventDefault();
         const {nitrogen,phosphorous,pottasium,cropgrow} = fertilizer;
        
-        const res =  await fetch("/myfertilizer" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/myfertilizer" ,{
             method : "POST",
             headers : { 
                 "Accept" : "application/json",

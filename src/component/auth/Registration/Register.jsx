@@ -40,7 +40,7 @@ const  Register = ()=>{
         const number = user.number
         const OTP = numotpcode
 
-        const res =  await fetch("/verifynumber" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/verifynumber" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -67,7 +67,7 @@ const  Register = ()=>{
         const name = user.name;
         const number = user.number
     
-        const res =  await fetch("/sendverifynumber" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/sendverifynumber" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -95,7 +95,7 @@ const  Register = ()=>{
         // Sending OTP via Email
         const name = user.name;
         const email = user.email
-        const res =  await fetch("/sendverifyemail" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/sendverifyemail" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -110,7 +110,7 @@ const  Register = ()=>{
         const name = user.name;
         const number = user.number
 
-        const res =  await fetch("/verifyregisternumber" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/verifyregisternumber" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -142,7 +142,7 @@ const  Register = ()=>{
         const name = user.name;
         const email = user.email
     
-        const res =  await fetch("/verifyregisteremail" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/verifyregisteremail" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -257,7 +257,7 @@ const  Register = ()=>{
         let ss = today.getSeconds();
         let time = dd+"/"+mm+"/"+yy+"("+hh+":"+mi+":"+ss+")";
 
-        const res =  await fetch("/register" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/register" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"

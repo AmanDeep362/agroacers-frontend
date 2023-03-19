@@ -28,7 +28,7 @@ const SubscriberPlan = ()=>{
   
     const callAboutPage = async () => {
         try {
-          const res = await fetch("/aboutuser", {
+          const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
             method: "GET",
             headers: {
               Accept: "application/json",
@@ -97,7 +97,7 @@ const SubscriberPlan = ()=>{
                 const orderid = response.razorpay_order_id;
                 const transid = response.razorpay_payment_id;
                 const amountpay = Number(data.amount.toString())/100;
-                const res =  await fetch("/sendSubscription" ,{
+                const res =  await fetch("https://agroacers-backend.onrender.com/sendSubscription" ,{
                     method : "POST",
                     headers : { 
                         "content-Type" : "application/json"

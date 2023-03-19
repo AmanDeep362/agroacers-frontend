@@ -58,7 +58,7 @@ const Uploadpage =()=>{
       
       console.log(Url);
     
-      const res =  await fetch("/admin/Postblog" ,{
+      const res =  await fetch("https://agroacers-backend.onrender.com/admin/Postblog" ,{
       method : "POST",
       headers : { 
           "content-Type" : "application/json"
@@ -81,7 +81,7 @@ const Uploadpage =()=>{
 
   const callAboutPage = async () => {
     try {
-      const res = await fetch("/aboutuser", {
+      const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
         method: "GET",
         headers: {
           Accept: "application/json",

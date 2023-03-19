@@ -21,7 +21,7 @@ const AddUniversity = ()=>{
         e.preventDefault();
         const {Hindi_name,Name,Description,new_price,old_price,quantity, category,Imageurl} = ShopProductDetails;
 
-        const res = await  fetch("/admin/AddShopproduct" ,{
+        const res = await  fetch("https://agroacers-backend.onrender.com/admin/AddShopproduct" ,{
                 method : "POST",
                 headers : { 
                     "content-Type" : "application/json"

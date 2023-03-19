@@ -45,7 +45,7 @@ const CRopDetails = (e) => {
     const deleteBlog = async ()=>{
             const id = blogData._id;
             console.log(blogData._id);
-            const res =  await fetch("/deleteBlog" ,{
+            const res =  await fetch("https://agroacers-backend.onrender.com/deleteBlog" ,{
       method : "POST",
       headers : { 
           "content-Type" : "application/json"
@@ -73,7 +73,7 @@ const CRopDetails = (e) => {
             const {title,Image} = changeBlog;
             const Description = Quill;
             console.log(blogData._id);
-            const res =  await fetch("/updateBlog" ,{
+            const res =  await fetch("https://agroacers-backend.onrender.com/updateBlog" ,{
                 method : "POST",
                 headers : { 
                   "content-Type" : "application/json"

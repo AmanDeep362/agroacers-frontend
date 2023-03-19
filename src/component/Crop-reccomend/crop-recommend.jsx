@@ -23,7 +23,7 @@ const Croprecommended =()=>{
         e.preventDefault();
         const {nitrogen,phosphorous,pottasium,phlevel,rainfall,state,city} = crop;
        
-        const res =  await fetch("/myrecommendedcrop" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/myrecommendedcrop" ,{
             method : "POST",
             headers : { 
                 "Accept" : "application/json",

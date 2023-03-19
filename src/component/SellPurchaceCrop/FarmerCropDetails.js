@@ -59,7 +59,7 @@ const FarmerCropDetail = () => {
 
     const callAboutPage = async () => {
         try {
-            const res = await fetch("/aboutuser", {
+            const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
                 method: "GET",
                 headers: {
                     Accept: "application/json",
@@ -187,7 +187,7 @@ const FarmerCropDetail = () => {
                 const orderid = response.razorpay_order_id;
                 const transid = response.razorpay_payment_id;
                 const amountpay = Number(data.amount.toString())/100;
-                const res =  await fetch("/sendSubscription" ,{
+                const res =  await fetch("https://agroacers-backend.onrender.com/sendSubscription" ,{
                     method : "POST",
                     headers : { 
                         "content-Type" : "application/json"
@@ -212,7 +212,7 @@ const FarmerCropDetail = () => {
         let mi = today.getMinutes();
         let ss = today.getSeconds();
         let time = dd+"/"+mm+"/"+yy+"("+hh+":"+mi+":"+ss+")";
-        const resp =  await fetch("/SellCrop" ,{
+        const resp =  await fetch("https://agroacers-backend.onrender.com/SellCrop" ,{
           method : "POST",
           headers : { 
               "content-Type" : "application/json"

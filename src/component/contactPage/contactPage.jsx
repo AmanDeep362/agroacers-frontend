@@ -32,7 +32,7 @@ const ContactPage =()=>{
         let mi = today.getMinutes();
         let ss = today.getSeconds();
         let time = dd+"/"+mm+"/"+yy+"("+hh+":"+mi+":"+ss+")";
-        const res =  await fetch("/contactus" ,{
+        const res =  await fetch("https://agroacers-backend.onrender.com/contactus" ,{
             method : "POST",
             headers : { 
                 "content-Type" : "application/json"
@@ -56,7 +56,7 @@ const ContactPage =()=>{
 
   const callAboutPage = async () => {
      try {
-    const res = await fetch("/aboutuser", {
+    const res = await fetch("https://agroacers-backend.onrender.com/aboutuser", {
       method: "GET",
       headers: {
         Accept: "application/json",

@@ -22,7 +22,7 @@ const Changepassword = () => {
 
   const passwordcrudchange = async () => {
       // Sending request to change password
-      const res =  await fetch("/setnewpassword" ,{
+      const res =  await fetch("https://agroacers-backend.onrender.com/setnewpassword" ,{
         method : "POST",
         headers : { 
             "content-Type" : "application/json"
@@ -70,7 +70,7 @@ const Changepassword = () => {
     setmatchotp(OTP);
 
     // Sending OTP via Email
-    const res =  await fetch("/sendverifyemailtochnagepassword" ,{
+    const res =  await fetch("https://agroacers-backend.onrender.com/sendverifyemailtochnagepassword" ,{
         method : "POST",
         headers : { 
             "content-Type" : "application/json"
