@@ -13,7 +13,7 @@ function HomeProducts(){
   
     useEffect(() => {
         const fetchdata = async () =>{
-            const {data} = await axios.get("/Shopproductdata");
+            const {data} = await axios.get("https://agroacers-backend.onrender.com/Shopproductdata");
             setproduct(data);
         }
         fetchdata();

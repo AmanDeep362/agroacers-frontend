@@ -182,7 +182,7 @@ function MyCart(){
 
         const fetchdata = async () =>{
             if(id){
-                const {data} = await axios.get("/Shopproductdata/" + id);
+                const {data} = await axios.get("https://agroacers-backend.onrender.com/Shopproductdata/" + id);
                 // console.log(data, qty);
                 addToCart(data, qty);
             }

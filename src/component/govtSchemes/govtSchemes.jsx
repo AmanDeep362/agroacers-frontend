@@ -10,7 +10,7 @@ const GovtScheme = ()=>{
     var x=1;
     useEffect(() => {
         const fetchdata = async () =>{
-              const {data} = await axios.get("/GovtSchemeData");
+              const {data} = await axios.get("https://agroacers-backend.onrender.com/GovtSchemeData");
               SetSchemeData(data);
               setIsLoading(true);
             

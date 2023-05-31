@@ -26,7 +26,7 @@ const SellerPurchace = () => {
   useEffect(() => {
     const fetchdata = async () =>{
         if(id){
-            const {data} = await axios.get("/sellerCrop/" + id);
+            const {data} = await axios.get("https://agroacers-backend.onrender.com/sellerCrop/" + id);
             setPagedate(data);
             setbidvalue(data.Min_price);
             setisLoading(true)

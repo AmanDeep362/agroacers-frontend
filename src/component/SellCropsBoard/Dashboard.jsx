@@ -42,7 +42,7 @@ function CropsDashboard(){
         callAboutPage();
 
         const fetchdata = async () =>{
-            const {data} = await axios.get("/SellCropdata");
+            const {data} = await axios.get("https://agroacers-backend.onrender.com/SellCropdata");
             // console.log(data);
             setuserdata(data);
         }

@@ -10,7 +10,7 @@ const SimilarProduct = (props) => {
   
     useEffect(() => {
       const fetchdata = async () =>{
-            const {data} = await axios.get("/cropdata");
+            const {data} = await axios.get("https://agroacers-backend.onrender.com/cropdata");
             setCropdata(data);
             setIsLoading(true);
         }

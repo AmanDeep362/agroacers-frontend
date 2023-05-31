@@ -20,7 +20,7 @@ function UniqueProductsDetails(){
 
     useEffect(() => {
         const fetchdata = async () =>{
-            const {data} = await axios.get("/Shopproductdata/" + id);
+            const {data} = await axios.get("https://agroacers-backend.onrender.com/Shopproductdata/" + id);
             // console.log(data);
             setproduct(data);
 

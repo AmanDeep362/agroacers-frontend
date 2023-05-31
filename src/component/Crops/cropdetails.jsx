@@ -32,7 +32,7 @@ const CRopDetails = (e) => {
     useEffect(() => {
         const fetchdata = async () =>{
             if(id){
-                const {data} = await axios.get("/cropdata/" + id);
+                const {data} = await axios.get("https://agroacers-backend.onrender.com/cropdata/" + id);
                 setblogData(data);
                 setIsLoading(true);
             }

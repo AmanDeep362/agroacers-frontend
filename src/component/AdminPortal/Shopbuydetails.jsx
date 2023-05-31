@@ -16,7 +16,7 @@ function ShopOrderDetails(){
     useEffect(() => {
         const fetchdata = async () =>{
             
-            const {data} = await axios.get("/orderdata");
+            const {data} = await axios.get("https://agroacers-backend.onrender.com/orderdata");
             setorderData(data);
             setisLoading(true);
 

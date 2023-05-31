@@ -24,7 +24,7 @@ function HomeFeatures(){
 
     useEffect(() => {
         const fetchdata = async () =>{
-            const {data} = await axios.get("/Shopproductdata");
+            const {data} = await axios.get("https://agroacers-backend.onrender.com/Shopproductdata");
             // console.log(data);
             setproduct(data);
         }
