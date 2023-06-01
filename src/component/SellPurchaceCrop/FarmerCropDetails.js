@@ -156,7 +156,7 @@ const FarmerCropDetail = () => {
 
     // console.log(pricepay + "I/m running to pay")
 
-    const data = await fetch('/razorpay',{ 
+    const data = await fetch('https://agroacers-backend.onrender.com/razorpay',{ 
             method: 'POST',
             headers: {
                 "content-Type" : "application/json",

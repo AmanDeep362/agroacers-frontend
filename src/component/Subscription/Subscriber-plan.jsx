@@ -67,7 +67,7 @@ const SubscriberPlan = ()=>{
 			return
 		}
 
-		const data = await fetch('/razorpay',{ 
+		const data = await fetch('https://agroacers-backend.onrender.com/razorpay',{ 
             method: 'POST',
             headers: {
                 "content-Type" : "application/json",

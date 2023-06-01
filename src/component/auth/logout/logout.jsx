@@ -8,7 +8,7 @@ function Logout(){
     
     const navigate = useNavigate();
     useEffect(()=>{
-        fetch('/logout',{
+        fetch('https://agroacers-backend.onrender.com/logout',{
             method: "GET",
                 headers: {
                     "Content-Type": "application/json"
