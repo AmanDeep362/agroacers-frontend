@@ -25,10 +25,12 @@ const Login = () => {
         password,
       }),
     });
-   
+  
     if (res.status === 200) {
+      const data = await res.json()
       dispatch({type:"USER",payload:true});
       localStorage.setItem("isLoggedin", Number(true));
+      localStorage.setItem("user", JSON.stringify(data.user));
       localStorage.removeItem("cartItems");
       window.alert("Login succesful");
       navigate("/", { replace: true });

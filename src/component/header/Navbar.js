@@ -14,14 +14,17 @@ const Navbar = () => {
     const [userData, setUserData] = useState({});
 
     const callAboutPage = async () => {
+      const user = JSON.parse(localStorage.getItem("user"))
         try {
-            const res = await fetch('https://agroacers-backend.onrender.com/aboutuser', {
+            const res = await fetch('https://agroacers-backend.onrender.com/aboutuser/'+user._id, {
                 method: "GET",
                 headers: {
                     "Accept" : "application/json",
-                    "Content-Type": "application/json"
+                    "Content-Type": "application/json",
+                  //  "Authorization": Bearer 
+
                 },
-                credentials: "include"
+                // credentials: "include"
             });
 
             const data = await res.json();
