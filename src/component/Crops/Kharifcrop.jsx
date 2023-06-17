@@ -4,6 +4,7 @@ import KharifCropBanner from "../../Images/crousal/Kharif-crop-banner.jpg";
 import "../../Styles/rabi-crop.css";
 import Loader from "../Loader";
 import axios from "axios";
+import AdSense from "../Adsens";
 
 const KharifCrop = () => {
   const [cropData, setCropdata] = useState([]);

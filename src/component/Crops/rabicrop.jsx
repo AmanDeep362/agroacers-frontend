@@ -4,6 +4,7 @@ import rabicropbanner from "../../Images/crousal/rabi-crop-banner.jpg";
 import "../../Styles/rabi-crop.css";
 import Loader from "../Loader";
 import axios from "axios";
+import AdSense from "../Adsens";
 
 const RabiCrop = () => {
     const [cropData, setCropdata] = useState([]);
@@ -69,6 +70,7 @@ const RabiCrop = () => {
               season in India. The path is very innovative for rabi crop farming
               techniques.
             </p>
+            <AdSense/>
           </div>
           <div className="type-o-rabi-container">
             <h2 className="type-rabi-header">Types Of Rabi Crops</h2>

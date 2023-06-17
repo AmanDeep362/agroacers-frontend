@@ -20,6 +20,7 @@ import axios from "axios";
 import SimilarProduct from "./MorePageBlog";
 import CommentBox from "../../CommentBox/CommentBox";
 import ReactQuill from "react-quill";
+import AdSense from "../Adsens";
 
 const CRopDetails = (e) => {
 
@@ -247,11 +248,11 @@ const CRopDetails = (e) => {
                     </TelegramShareButton>
                 </div>
 
-              
+                <AdSense/>
             <div id="crop-blog-description" className="crop-blog-des-containior">
                 {blogData.Description}
             </div>
-
+<AdSense/>
             <hr />
 
             <div className="author-details">

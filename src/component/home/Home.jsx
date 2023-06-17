@@ -12,6 +12,7 @@ import AImg6 from "./../../Images/fertilizer.jpg";
 import "./../../Styles/Homepage.css";
 import ProductsBrands from "./../AgroShop/AgroShopJSON/ProductBrands.json";
 import Productseat from "./../mandiRate/Mandibrands.json";
+import AdSense from '../Adsens';
 
 class Home extends React.Component{
 
@@ -89,7 +90,7 @@ class Home extends React.Component{
                     </p>
                    
                 </div>
-
+  <AdSense/>
                 {/* Our Statistics  */}
                 <div className="crousal-statistic-outer-container">
                     {/* Head  */}
@@ -129,7 +130,7 @@ class Home extends React.Component{
                         </div>
                     </div>
                 </div>
-
+                <AdSense/>
                 {/* What we Provide  */}
                 <h1 className="homepage-story-heading mt-3">What We Provide ?</h1>
                 <div className="features-container" data-aos="fade-right">
